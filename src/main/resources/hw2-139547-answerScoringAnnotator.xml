@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<analysisEngineDescription xmlns="http://uima.apache.org/resourceSpecifier">
+  <frameworkImplementation>org.apache.uima.java</frameworkImplementation>
+  <primitive>true</primitive>  <annotatorImplementationName>edu.cmu.deiis.annotators.AnswerScoringAnnotator</annotatorImplementationName>
+  <analysisEngineMetaData>
+    <name>hw2-139547-AnswerScoringAnnotator</name>
+    <description>We are going to use Jaccard, as it is a very simple one to implement, as very used index for this purpose and we have some experience using it. In order to implement this similarity index, we need to have the set of token corresponding to the Answers and the set of tokens corresponding to the Question, therefore we can calculate the similarity between these sets.</description>
+    <version>1.0</version>
+    <vendor>Gabriela Gongora</vendor>
+    <configurationParameters/>
+    <configurationParameterSettings/>
+    <typeSystemDescription>
+      <imports>
+        <import location="descriptors/deiis_types.xml"/>
+      </imports>
+    </typeSystemDescription>
+    <typePriorities/>
+    <fsIndexCollection/>
+    <capabilities>
+      <capability>
+        <inputs>
+          <type allAnnotatorFeatures="true">edu.cmu.deiis.types.Token</type>
+        </inputs>
+        <outputs>
+          <type allAnnotatorFeatures="true">edu.cmu.deiis.types.AnswerScore</type>
+        </outputs>
+        <languagesSupported/>
+      </capability>
+    </capabilities>
+  <operationalProperties>
+      <modifiesCas>true</modifiesCas>
+      <multipleDeploymentAllowed>true</multipleDeploymentAllowed>
+      <outputsNewCASes>false</outputsNewCASes>
+    </operationalProperties>
+  </analysisEngineMetaData>
+  <resourceManagerConfiguration/>
+</analysisEngineDescription>

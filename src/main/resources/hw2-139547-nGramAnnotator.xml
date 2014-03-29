@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<analysisEngineDescription xmlns="http://uima.apache.org/resourceSpecifier">
+  <frameworkImplementation>org.apache.uima.java</frameworkImplementation>
+  <primitive>true</primitive>  <annotatorImplementationName>edu.cmu.deiis.annotators.NGramAnnotator</annotatorImplementationName>
+  <analysisEngineMetaData>
+    <name>hw2-139547-NGramAnnotator</name>
+    <description>We take in the tokens generated in the previous stage of the pipeline in order to construct lists  of characters, constituting: 1-grams, 2-grams and 3-grams.</description>
+    <version>1.0</version>
+    <vendor>Gabriela Gongora</vendor>
+    <configurationParameters/>
+    <configurationParameterSettings/>
+    <typeSystemDescription>
+      <imports>
+        <import location="descriptors/deiis_types.xml"/>
+      </imports>
+    </typeSystemDescription>
+    <typePriorities/>
+    <fsIndexCollection/>
+    <capabilities>
+      <capability>
+        <inputs>
+          <type allAnnotatorFeatures="true">edu.cmu.deiis.types.Token</type>
+        </inputs>
+        <outputs>
+          <type allAnnotatorFeatures="true">edu.cmu.deiis.types.NGram</type>
+        </outputs>
+        <languagesSupported/>
+      </capability>
+    </capabilities>
+  <operationalProperties>
+      <modifiesCas>true</modifiesCas>
+      <multipleDeploymentAllowed>true</multipleDeploymentAllowed>
+      <outputsNewCASes>false</outputsNewCASes>
+    </operationalProperties>
+  </analysisEngineMetaData>
+  <resourceManagerConfiguration/>
+</analysisEngineDescription>

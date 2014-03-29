@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<analysisEngineDescription xmlns="http://uima.apache.org/resourceSpecifier">
+  <frameworkImplementation>org.apache.uima.java</frameworkImplementation>
+  <primitive>true</primitive>  <annotatorImplementationName>edu.cmu.deiis.annotators.TestElementAnnotator</annotatorImplementationName>
+  <analysisEngineMetaData>
+    <name>hw2-139547-TestElementAnnotator</name>
+    <description>Input text file comes in, and this annotator has to detect whether each line corresponds to a Question or an Answer. If it starts with a “Q” it belongs to a questions, otherwise, if it begins with an “A” it belongs to an answer.</description>
+    <version>1.0</version>
+    <vendor>Gabriela Gongora</vendor>
+    <configurationParameters/>
+    <configurationParameterSettings/>
+    <typeSystemDescription>
+      <imports>
+        <import location="descriptors/deiis_types.xml"/>
+      </imports>
+    </typeSystemDescription>
+    <typePriorities/>
+    <fsIndexCollection/>
+    <capabilities>
+      <capability>
+        <inputs/>
+        <outputs>
+          <type allAnnotatorFeatures="true">edu.cmu.deiis.types.Question</type>
+          <type allAnnotatorFeatures="true">edu.cmu.deiis.types.Answer</type>
+        </outputs>
+        <languagesSupported/>
+      </capability>
+    </capabilities>
+  <operationalProperties>
+      <modifiesCas>true</modifiesCas>
+      <multipleDeploymentAllowed>true</multipleDeploymentAllowed>
+      <outputsNewCASes>false</outputsNewCASes>
+    </operationalProperties>
+  </analysisEngineMetaData>
+  <resourceManagerConfiguration/>
+</analysisEngineDescription>

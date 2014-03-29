@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<analysisEngineDescription xmlns="http://uima.apache.org/resourceSpecifier">
+  <frameworkImplementation>org.apache.uima.java</frameworkImplementation>
+  <primitive>true</primitive>  <annotatorImplementationName>edu.cmu.deiis.annotators.EvaluationAnnotator</annotatorImplementationName>
+  <analysisEngineMetaData>
+    <name>hw2-139547-evaluationAnnotator</name>
+    <description>This is the last annotator in our pipeline. We need to use the AnswerScore obtained in the previous stage of the pipeline in order to sort Answers by this score. Afterwards we need the top N answers, and we then calculate the amount (%) of answers that are actually correct. The final outcome of the pipeline involves a printing of this percentage as the precision@N.</description>
+    <version>1.0</version>
+    <vendor>Gabriela Gongora</vendor>
+    <configurationParameters>
+      <configurationParameter>
+        <name>N</name>
+        <description>Different N values might be of use. To measure precision@N.</description>
+        <type>Integer</type>
+        <multiValued>false</multiValued>
+        <mandatory>true</mandatory>
+      </configurationParameter>
+    </configurationParameters>
+    <configurationParameterSettings>
+      <nameValuePair>
+        <name>N</name>
+        <value>
+          <integer>3</integer>
+        </value>
+      </nameValuePair>
+    </configurationParameterSettings>
+    <typeSystemDescription>
+      <imports>
+        <import location="descriptors/deiis_types.xml"/>
+      </imports>
+    </typeSystemDescription>
+    <typePriorities/>
+    <fsIndexCollection/>
+    <capabilities>
+      <capability>
+        <inputs>
+          <type allAnnotatorFeatures="true">edu.cmu.deiis.types.AnswerScore</type>
+          <type allAnnotatorFeatures="true">edu.cmu.deiis.types.Answer</type>
+        </inputs>
+        <outputs/>
+        <languagesSupported/>
+      </capability>
+    </capabilities>
+  <operationalProperties>
+      <modifiesCas>true</modifiesCas>
+      <multipleDeploymentAllowed>true</multipleDeploymentAllowed>
+      <outputsNewCASes>false</outputsNewCASes>
+    </operationalProperties>
+  </analysisEngineMetaData>
+  <resourceManagerConfiguration/>
+</analysisEngineDescription>

@@ -1,0 +1,91 @@
+2014-03-28 04:25:56,533 [JMX connector  ] INFO  ManagementContext              - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2014-03-28 04:25:56,543 [main           ] INFO  BrokerService                  - Using Persistence Adapter: MemoryPersistenceAdapter
+2014-03-28 04:25:56,545 [main           ] INFO  BrokerService                  - ActiveMQ 5.4.1 JMS Message Broker (localhost) is starting
+2014-03-28 04:25:56,545 [main           ] INFO  BrokerService                  - For help or more information please see: http://activemq.apache.org/
+2014-03-28 04:25:56,800 [main           ] INFO  TransportServerThreadSupport   - Listening for connections at: tcp://IBAGNOG.local:61616
+2014-03-28 04:25:56,801 [main           ] INFO  TransportConnector             - Connector openwire Started
+2014-03-28 04:25:56,805 [main           ] INFO  BrokerService                  - ActiveMQ JMS Message Broker (localhost, ID:IBAGNOG.local-56144-1396002356564-0:0) started
+2014-03-28 04:53:23,985 [Thread-3       ] INFO  BrokerService                  - ActiveMQ Message Broker (localhost, ID:IBAGNOG.local-56144-1396002356564-0:0) is shutting down
+2014-03-28 04:53:23,987 [MQ ShutdownHook] INFO  BrokerService                  - ActiveMQ Message Broker (localhost, ID:IBAGNOG.local-56144-1396002356564-0:0) is shutting down
+2014-03-28 04:53:23,987 [MQ ShutdownHook] INFO  TransportConnector             - Connector openwire Stopped
+2014-03-28 04:53:24,004 [MQ ShutdownHook] INFO  BrokerService                  - ActiveMQ JMS Message Broker (localhost, ID:IBAGNOG.local-56144-1396002356564-0:0) stopped
+2014-03-28 04:53:25,814 [Thread-3       ] INFO  TransportConnector             - Connector openwire Stopped
+2014-03-28 04:53:25,815 [Thread-3       ] INFO  BrokerService                  - ActiveMQ JMS Message Broker (localhost, ID:IBAGNOG.local-56144-1396002356564-0:0) stopped
+2014-03-28 11:06:24,911 [main           ] INFO  BrokerService                  - Using Persistence Adapter: MemoryPersistenceAdapter
+2014-03-28 11:06:24,914 [main           ] INFO  BrokerService                  - ActiveMQ 5.4.1 JMS Message Broker (localhost) is starting
+2014-03-28 11:06:24,915 [main           ] INFO  BrokerService                  - For help or more information please see: http://activemq.apache.org/
+2014-03-28 11:06:24,924 [JMX connector  ] INFO  ManagementContext              - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2014-03-28 11:06:25,161 [main           ] INFO  TransportServerThreadSupport   - Listening for connections at: tcp://ibagnog.local:61616
+2014-03-28 11:06:25,162 [main           ] INFO  TransportConnector             - Connector openwire Started
+2014-03-28 11:06:25,167 [main           ] INFO  BrokerService                  - ActiveMQ JMS Message Broker (localhost, ID:ibagnog.local-56365-1396026384938-0:0) started
+2014-03-28 16:12:17,951 [MQ ShutdownHook] INFO  BrokerService                  - ActiveMQ Message Broker (localhost, ID:ibagnog.local-56365-1396026384938-0:0) is shutting down
+2014-03-28 16:12:17,952 [Thread-3       ] INFO  BrokerService                  - ActiveMQ Message Broker (localhost, ID:ibagnog.local-56365-1396026384938-0:0) is shutting down
+2014-03-28 16:12:17,952 [Thread-3       ] INFO  TransportConnector             - Connector openwire Stopped
+2014-03-28 16:12:17,962 [Thread-3       ] INFO  BrokerService                  - ActiveMQ JMS Message Broker (localhost, ID:ibagnog.local-56365-1396026384938-0:0) stopped
+2014-03-28 16:12:19,634 [MQ ShutdownHook] INFO  TransportConnector             - Connector openwire Stopped
+2014-03-28 16:12:19,635 [MQ ShutdownHook] INFO  BrokerService                  - ActiveMQ JMS Message Broker (localhost, ID:ibagnog.local-56365-1396026384938-0:0) stopped
+2014-03-28 16:12:28,570 [main           ] INFO  BrokerService                  - Using Persistence Adapter: MemoryPersistenceAdapter
+2014-03-28 16:12:28,573 [main           ] INFO  BrokerService                  - ActiveMQ 5.4.1 JMS Message Broker (localhost) is starting
+2014-03-28 16:12:28,573 [main           ] INFO  BrokerService                  - For help or more information please see: http://activemq.apache.org/
+2014-03-28 16:12:28,582 [JMX connector  ] INFO  ManagementContext              - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2014-03-28 16:12:28,826 [main           ] INFO  TransportServerThreadSupport   - Listening for connections at: tcp://IBAGNOG.local:61616
+2014-03-28 16:12:28,826 [main           ] INFO  TransportConnector             - Connector openwire Started
+2014-03-28 16:12:28,833 [main           ] INFO  BrokerService                  - ActiveMQ JMS Message Broker (localhost, ID:IBAGNOG.local-56495-1396044748595-0:0) started
+2014-03-28 16:47:13,458 [Thread-3       ] INFO  BrokerService                  - ActiveMQ Message Broker (localhost, ID:IBAGNOG.local-56495-1396044748595-0:0) is shutting down
+2014-03-28 16:47:13,459 [MQ ShutdownHook] INFO  BrokerService                  - ActiveMQ Message Broker (localhost, ID:IBAGNOG.local-56495-1396044748595-0:0) is shutting down
+2014-03-28 16:47:13,459 [MQ ShutdownHook] INFO  TransportConnector             - Connector openwire Stopped
+2014-03-28 16:47:13,484 [MQ ShutdownHook] INFO  BrokerService                  - ActiveMQ JMS Message Broker (localhost, ID:IBAGNOG.local-56495-1396044748595-0:0) stopped
+2014-03-28 16:47:13,924 [Thread-3       ] INFO  TransportConnector             - Connector openwire Stopped
+2014-03-28 16:47:13,925 [Thread-3       ] INFO  BrokerService                  - ActiveMQ JMS Message Broker (localhost, ID:IBAGNOG.local-56495-1396044748595-0:0) stopped
+2014-03-28 16:47:26,701 [main           ] INFO  BrokerService                  - Using Persistence Adapter: MemoryPersistenceAdapter
+2014-03-28 16:47:26,707 [JMX connector  ] INFO  ManagementContext              - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2014-03-28 16:47:26,710 [main           ] INFO  BrokerService                  - ActiveMQ 5.4.1 JMS Message Broker (localhost) is starting
+2014-03-28 16:47:26,710 [main           ] INFO  BrokerService                  - For help or more information please see: http://activemq.apache.org/
+2014-03-28 16:47:26,939 [main           ] INFO  TransportServerThreadSupport   - Listening for connections at: tcp://IBAGNOG.local:61616
+2014-03-28 16:47:26,940 [main           ] INFO  TransportConnector             - Connector openwire Started
+2014-03-28 16:47:26,944 [main           ] INFO  BrokerService                  - ActiveMQ JMS Message Broker (localhost, ID:IBAGNOG.local-56790-1396046846729-0:0) started
+2014-03-28 16:49:39,557 [Thread-3       ] INFO  BrokerService                  - ActiveMQ Message Broker (localhost, ID:IBAGNOG.local-56790-1396046846729-0:0) is shutting down
+2014-03-28 16:49:39,559 [MQ ShutdownHook] INFO  BrokerService                  - ActiveMQ Message Broker (localhost, ID:IBAGNOG.local-56790-1396046846729-0:0) is shutting down
+2014-03-28 16:49:39,560 [MQ ShutdownHook] INFO  TransportConnector             - Connector openwire Stopped
+2014-03-28 16:49:39,577 [MQ ShutdownHook] INFO  BrokerService                  - ActiveMQ JMS Message Broker (localhost, ID:IBAGNOG.local-56790-1396046846729-0:0) stopped
+2014-03-28 16:49:41,009 [Thread-3       ] INFO  TransportConnector             - Connector openwire Stopped
+2014-03-28 16:49:41,010 [Thread-3       ] INFO  BrokerService                  - ActiveMQ JMS Message Broker (localhost, ID:IBAGNOG.local-56790-1396046846729-0:0) stopped
+2014-03-28 16:49:46,830 [JMX connector  ] INFO  ManagementContext              - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2014-03-28 16:49:46,833 [main           ] INFO  BrokerService                  - Using Persistence Adapter: MemoryPersistenceAdapter
+2014-03-28 16:49:46,835 [main           ] INFO  BrokerService                  - ActiveMQ 5.4.1 JMS Message Broker (localhost) is starting
+2014-03-28 16:49:46,836 [main           ] INFO  BrokerService                  - For help or more information please see: http://activemq.apache.org/
+2014-03-28 16:49:47,070 [main           ] INFO  TransportServerThreadSupport   - Listening for connections at: tcp://IBAGNOG.local:61616
+2014-03-28 16:49:47,071 [main           ] INFO  TransportConnector             - Connector openwire Started
+2014-03-28 16:49:47,074 [main           ] INFO  BrokerService                  - ActiveMQ JMS Message Broker (localhost, ID:IBAGNOG.local-56804-1396046986854-0:0) started
+2014-03-28 17:08:07,374 [MQ ShutdownHook] INFO  BrokerService                  - ActiveMQ Message Broker (localhost, ID:IBAGNOG.local-56804-1396046986854-0:0) is shutting down
+2014-03-28 17:08:07,376 [Thread-3       ] INFO  BrokerService                  - ActiveMQ Message Broker (localhost, ID:IBAGNOG.local-56804-1396046986854-0:0) is shutting down
+2014-03-28 17:08:07,376 [Thread-3       ] INFO  TransportConnector             - Connector openwire Stopped
+2014-03-28 17:08:07,393 [Thread-3       ] INFO  BrokerService                  - ActiveMQ JMS Message Broker (localhost, ID:IBAGNOG.local-56804-1396046986854-0:0) stopped
+2014-03-28 17:08:07,596 [MQ ShutdownHook] INFO  TransportConnector             - Connector openwire Stopped
+2014-03-28 17:08:07,596 [MQ ShutdownHook] INFO  BrokerService                  - ActiveMQ JMS Message Broker (localhost, ID:IBAGNOG.local-56804-1396046986854-0:0) stopped
+2014-03-28 17:08:14,939 [main           ] INFO  BrokerService                  - Using Persistence Adapter: MemoryPersistenceAdapter
+2014-03-28 17:08:14,943 [main           ] INFO  BrokerService                  - ActiveMQ 5.4.1 JMS Message Broker (localhost) is starting
+2014-03-28 17:08:14,944 [main           ] INFO  BrokerService                  - For help or more information please see: http://activemq.apache.org/
+2014-03-28 17:08:14,953 [JMX connector  ] INFO  ManagementContext              - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2014-03-28 17:08:15,202 [main           ] INFO  TransportServerThreadSupport   - Listening for connections at: tcp://IBAGNOG.local:61616
+2014-03-28 17:08:15,203 [main           ] INFO  TransportConnector             - Connector openwire Started
+2014-03-28 17:08:15,206 [main           ] INFO  BrokerService                  - ActiveMQ JMS Message Broker (localhost, ID:IBAGNOG.local-56877-1396048094964-0:0) started
+2014-03-28 17:09:29,957 [Thread-3       ] INFO  BrokerService                  - ActiveMQ Message Broker (localhost, ID:IBAGNOG.local-56877-1396048094964-0:0) is shutting down
+2014-03-28 17:09:29,958 [MQ ShutdownHook] INFO  BrokerService                  - ActiveMQ Message Broker (localhost, ID:IBAGNOG.local-56877-1396048094964-0:0) is shutting down
+2014-03-28 17:09:29,959 [MQ ShutdownHook] INFO  TransportConnector             - Connector openwire Stopped
+2014-03-28 17:09:29,975 [MQ ShutdownHook] INFO  BrokerService                  - ActiveMQ JMS Message Broker (localhost, ID:IBAGNOG.local-56877-1396048094964-0:0) stopped
+2014-03-28 17:09:31,257 [Thread-3       ] INFO  TransportConnector             - Connector openwire Stopped
+2014-03-28 17:09:31,258 [Thread-3       ] INFO  BrokerService                  - ActiveMQ JMS Message Broker (localhost, ID:IBAGNOG.local-56877-1396048094964-0:0) stopped
+2014-03-28 17:09:37,101 [JMX connector  ] INFO  ManagementContext              - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2014-03-28 17:09:37,103 [main           ] INFO  BrokerService                  - Using Persistence Adapter: MemoryPersistenceAdapter
+2014-03-28 17:09:37,106 [main           ] INFO  BrokerService                  - ActiveMQ 5.4.1 JMS Message Broker (localhost) is starting
+2014-03-28 17:09:37,106 [main           ] INFO  BrokerService                  - For help or more information please see: http://activemq.apache.org/
+2014-03-28 17:09:37,340 [main           ] INFO  TransportServerThreadSupport   - Listening for connections at: tcp://IBAGNOG.local:61616
+2014-03-28 17:09:37,341 [main           ] INFO  TransportConnector             - Connector openwire Started
+2014-03-28 17:09:37,343 [main           ] INFO  BrokerService                  - ActiveMQ JMS Message Broker (localhost, ID:IBAGNOG.local-56888-1396048177125-0:0) started
+2014-03-28 18:01:13,760 [MQ ShutdownHook] INFO  BrokerService                  - ActiveMQ Message Broker (localhost, ID:IBAGNOG.local-56888-1396048177125-0:0) is shutting down
+2014-03-28 18:01:13,772 [Thread-3       ] INFO  BrokerService                  - ActiveMQ Message Broker (localhost, ID:IBAGNOG.local-56888-1396048177125-0:0) is shutting down
+2014-03-28 18:01:13,772 [Thread-3       ] INFO  TransportConnector             - Connector openwire Stopped
+2014-03-28 18:01:13,806 [Thread-3       ] INFO  BrokerService                  - ActiveMQ JMS Message Broker (localhost, ID:IBAGNOG.local-56888-1396048177125-0:0) stopped
+2014-03-28 18:01:15,162 [MQ ShutdownHook] INFO  TransportConnector             - Connector openwire Stopped
+2014-03-28 18:01:15,162 [MQ ShutdownHook] INFO  BrokerService                  - ActiveMQ JMS Message Broker (localhost, ID:IBAGNOG.local-56888-1396048177125-0:0) stopped
